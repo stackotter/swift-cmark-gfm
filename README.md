@@ -1,6 +1,6 @@
 # CMarkGFM
 
-This package purely provides an easy way to import the cmark-gfm library in Swift. It does not wrap the C API with a Swift API. For that, see [Parsley](https://github.com/loopwerk/Parsley).
+This package just provides an easy way to import the cmark-gfm library into Swift. It does not wrap the C API with a nice Swift API. For that, see [Parsley](https://github.com/loopwerk/Parsley).
 
 ## Usage
 
@@ -23,7 +23,7 @@ let package = Package(
 )
 ```
 
-## `update_cmark_gfm.sh` script
+## Automatic updater script
 
 The main goal of this package is to be extremely easy to maintain. That's why I made the `update_cmark_gfm.sh` script. Running the script will automatically update this package to the latest version of `cmark-gfm`.
 
